@@ -1,0 +1,435 @@
+------TEKKEN BOT README------
+
+*** MAKE SURE YOU ALWAYS HAVE THE LATEST VERSION OF memory_address.ini***
+
+* Launch Tekken 7, then launch Tekken Bot by clicking on TekkenBotPrime.exe. Tekken Bot should automatically locate the running Tekken 7 instance and start reading its memory. If Tekken 7 is running with admin rights, make sure you also run Tekken Bot with them.
+
+* Frame Data Overlay requires Tekken 7 to be in windowed or windowed borderless mode (switch first to windowed, THEN to borderless).
+
+* Users with multiple monitors can get the overlay as a separate, draggable window on their second monitor (display -> overlay_as_draggable_window).
+
+------
+Tekken Bot version check disabled.
+
+Tekken Bot Starting...
+Launching Tekken Bot: Frame Data Overlay
+Tekken pid acquired: 6780
+Trying to acquire Tekken library in pid: 6780
+Found TekkenGame-Win64-Shipping.exe
+Fight detected. Updating gamestate.
+Parsing movelist for [FENG]
+Parsing movelist for [HWOARANG]
+p1:  f1  |1421|Ta_step_LP|  LOW  | 22 | ?? | ?? | +31 |1/2|C |55 |30 |61 |TC: 5~  NOW:+31
+p2:  COUNTER | 27 | 1 | 3600 | 3600 | HIT
+p1: UNK_800b,f2|1422|Ta_step_RP|  MID  | 22 | ?? | ?? | +36 |1/2|C |60 |35 |71 | NOW:+36
+p1: f1+2 |1774|Ta_6lrp| HIGH  | 19 | ?? |+53 | ??  |1/2|S+|56 |34 |87 | NOW:+53
+p1:  NOW:+54
+p1:  NOW:+55
+p2:  COUNTER | 45 | 2 | 3600 | 3600 | HIT
+p1:   4  |1739|Ta_zensoutai|  LOW  | 20 | ?? | ?? | +26 |1/3|C |53 |33 |59 |TC: 12~  NOW:+26
+p2:  COUNTER | 25 | 1 | 3600 | 3600 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  |14? | ?? | -4 | ??  |1/2|C |50 |31 |27 |TC: 5~  NOW:-4
+p2:  GROUND | 11 | 1 | 3600 | 3600 | HIT
+p2:  COUNTER | 20 | 1 | 3600 | 3600 | HIT
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |15 |16 | NOW:+1
+p1:  NOW:-26
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-65
+p1:  1,1 |1760|Ta_lplp_10|  MID  | 25 |-11 | ?? | ??  |1/2|C |55 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | ?? | ??  |1/2|A |39 |27 |17 | NOW:-10
+Closing punish window, result: NO_PUNISH
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | ?? | ??  |1/2|A |39 |27 |17 | NOW:-10
+Closing punish window, result: NO_PUNISH
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | ?? | ??  |1/2|A |39 |27 |17 | NOW:-10
+p1:  NOW:-49
+Closing punish window, result: NO_PUNISH
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | ?? | ??  |1/2|A |39 |27 |17 | NOW:-10
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+p1:  NOW:-36
+p1: b2,3 |1712|Ta_combo2|  LOW  | 22 | ?? | ?? | +8  |1/3|C |52 |26 |34 | NOW:+8
+p2:  COUNTER | 9 | 1 | 3600 | 3600 | HIT
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+p1:  NOW:-36
+p1: b2,3 |1712|Ta_combo3|  LOW  | 22 | ?? | ?? | -20 |1/3|C |52 |54 |34 | NOW:-20
+p1:  NOW:+19
+p1: b2,3,4|1713|Ta_combo3|  MID  | 24 | ?? |+19 | ??  |1/2|C |55 |28 |47 | NOW:+19
+p1:  NOW:-13
+p1:  NOW:-3
+p1: b2,3,4,2|1714|Ta_combo4|  MID  | 24 | ?? | -3 | ??  |1/2|C |60 |33 |30 | NOW:-3
+p1:  NOW:-6
+p2:  COUNTER | 35 | 3 | 3600 | 3600 | HIT
+p1: b1+2 |1776|Ta_tetuzan2|  MID  | 13 |-19 | ?? | ??  |1/2|A |52 |37 |18 | NOW:-19
+p1:  NOW:-18
+Closing punish window, result: NO_PUNISH
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+Closing punish window, result: NO_PUNISH
+p1: b1+2 |1776|Ta_tetuzan2|  MID  | 13 |-19 | ?? | ??  |1/2|A |52 |37 |18 | NOW:-19
+Closing punish window, result: NO_PUNISH
+p1: b1+2 |1776|Ta_tetuzan2|  MID  | 13 |-19 | ?? | ??  |1/2|A |52 |37 |18 | NOW:-19
+Closing punish window, result: NO_PUNISH
+p1: b1+2 |1776|Ta_tetuzan2|  MID  | 13 |-19 | ?? | ??  |1/2|A |52 |37 |18 | NOW:-19
+Closing punish window, result: NO_PUNISH
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+p1:  NOW:-68
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+p1:  NOW:-121
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+p1:  NOW:-174
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+p1:  NOW:-235
+p1:  1+2 |1565|Ta_kaityuu|  MID  | 21 |-13 | ?? | ??  |1/2|A |53 |30 |17 | NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-41
+p1:  1,1 |1760|Ta_lplp_10|  MID  | 25 |-11 | ?? | ??  |1/2|C |55 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-41
+p1:  1,1 |1760|Ta_lplp_10|  MID  | 25 |-11 | ?? | ??  |1/2|C |55 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-38
+p1:  1,1 |1760|Ta_lplp_10|  MID  | 25 |-11 | ?? | ??  |1/2|C |55 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-15
+p1:  NOW:-30
+p1:  1,2 |1552|Ta_lprprp| HIGH  | 10 |-30 | ?? | ??  |1/1|C |30 |47 |17 | NOW:-30
+p1:  NOW:-13
+p1: 1,2,2|1553|Ta_lprprp| HIGH  | 17 |-13 | ?? | ??  |1/1|C |49 |30 |17 | NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-16
+p1:  NOW:-30
+p1:  1,2 |1552|Ta_lprprp| HIGH  | 10 |-30 | ?? | ??  |1/1|C |30 |47 |17 | NOW:-30
+p1:  NOW:-13
+p1: 1,2,2|1553|Ta_lprprp_E| HIGH  | 17 |-11 | ?? | ??  |1/1|C |49 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  ws1 |1594|Ta_R_lp00| HIGH  | 12 | -1 | ?? | ??  |1/1|A |32 |19 |18 | NOW:-1
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | ?? | ??  |1/1|A |27 |16 |17 | NOW:+1
+p1:  NOW:-14
+p1:  NOW:-1
+p1:  1,2 |1552|Ta_lprprp| HIGH  | 10 |-31 | ?? | ??  |1/1|C |30 |48 |17 | NOW:-31
+p1:  NOW:-13
+p1: 1,2,2|1553|Ta_lprprp_E| HIGH  | 17 |-11 | ?? | ??  |1/1|C |49 |28 |17 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p1:  ws1 |1594|Ta_R_lp00| HIGH  | 12 | -1 | ?? | ??  |1/1|A |32 |19 |18 | NOW:-1
+p1:  b4  |1782|Ta_hikyaku|  MID  | 12 | -9 | ?? | ??  |1/2|C |40 |26 |17 | NOW:-9
+p1:  f4  |1701|Ta_rk00F| HIGH  | 18 | -9 | ?? | ??  |1/2|A |46 |26 |17 | NOW:-9
+p1:  NOW:-48
+p1:  NOW:-49
+p1:  NOW:-50
+p1:  NOW:-51
+p1: f4,4 |1707|Ta_zensoutai2|  LOW  | 31 | ?? | ?? | +28 |1/3|A |62 |31 |59 |TC: 23~  NOW:+28
+p2:  COUNTER | 27 | 1 | 3600 | 3600 | HIT
+p1:  f4  |1701|Ta_rk00F| HIGH  | 18 | -9 | ?? | ??  |1/2|A |46 |26 |17 | NOW:-9
+p1:  f4  |1701|Ta_rk00F| HIGH  | 18 | -9 | ?? | ??  |1/2|A |46 |26 |17 | NOW:-9
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|C-|46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|C-|46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|C-|46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-59
+p1:  NOW:-61
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|C-|46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|C-|46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-59
+p1:  NOW:-61
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-107
+p1:  NOW:-109
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-155
+p1:  NOW:-157
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-203
+p1:  NOW:-205
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-251
+p1:  NOW:-253
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:   4  |1531|Ta_jprk00GS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-59
+p1:  NOW:-61
+Closing punish window, result: NO_PUNISH
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-59
+p1:  NOW:-61
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+p1:  NOW:-107
+p1:  NOW:-109
+p1:  uf4 |1533|Ta_jprk00FGS|  MID  | 15 |-13 | ?? | ??  |1/3|A |46 |30 |17 |TJ: 9~  NOW:-13
+Closing punish window, result: NO_PUNISH
+p1:   2  |1571|Ta_rp00| HIGH  | 10 | -3 | ?? | ??  |1/1|A |32 |21 |18 | NOW:-3
+p1:  NOW:-35
+p1:   2  |1571|Ta_rp00| HIGH  | 10 | -3 | ?? | ??  |1/1|A |32 |21 |18 | NOW:-3
+p1:  NOW:-71
+p1:   2  |1571|Ta_rp00| HIGH  | 10 | -3 | ?? | ??  |1/1|A |32 |21 |18 | NOW:-3
+p1:  NOW:-104
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | ?? | ??  |1/1|A |44 |57 |19 | NOW:-38
+p1: f3,4 |1699|Ta_tukilk2|  MID  | 23 |-16 | ?? | ??  |1/2|C |58 |33 |17 |TJ: 21~  NOW:-16
+Closing punish window, result: NO_PUNISH
+No fight detected. Gamestate not updated.
+Fight detected. Updating gamestate.
+Parsing movelist for [FENG]
+Parsing movelist for [FRV]
+!RECORD | vs MASTER_RAVEN: 0 - 0
+!RECORD | vs NOT_LOGGED_IN: 7 - 15
+!RECORD | FENG vs MASTER_RAVEN: 0 - 0
+!ROUND | 0 | HIT
+p1: UNK_800b,f2|1422|Ta_step_RP|  MID  | 22 | ?? |+36 | +36 |1/2|C |60 |35 |71 | NOW:+36
+p2:  NO_BLOCK | 22 | 1 | 0 | 0 | HIT
+p1: UNK_800b,f2|1422|Ta_step_RP|  MID  | 22 | ?? |+36 | +36 |1/2|C |60 |35 |71 | NOW:+36
+p1: f1+2 |1774|Ta_6lrp| HIGH  | 19 | ?? |+53 | ??  |1/2|S+|56 |34 |87 | NOW:+53
+p1:  NOW:+54
+p1:  NOW:+55
+p2:  NO_BLOCK | 41 | 2 | 0 | 0 | HIT
+p1:   4  |1739|Ta_zensoutai|  LOW  | 20 | ?? |+27 | +26 |1/3|C |53 |29 |56 |TC: 12~  NOW:+27
+p1: f1+2 |1774|Ta_6lrp| HIGH  | 19 | ?? |+53 | ??  |1/2|S+|56 |34 |87 | NOW:+53
+p1:  f3  |1697|Ta_tukilk|  MID  | 21 |-38 |+27 | ??  |1/1|A |44 |21 |48 | NOW:+27
+p2:  LOW | 45 | 3 | 0 | 0 | HIT
+p1: UNK_800b,3|1604|Ta_66lk|  MID  | 32 | ?? | +8 | ??  |1/2|C |58 |23 |31 | NOW:+8
+p2:  NO_BLOCK | 30 | 1 | 0 | 0 | HIT
+p1:   1  |1691|Ta_lp00F| HIGH  | 10 | +1 | +8 | ??  |1/1|A |27 |15 |23 | NOW:+8
+p1:  NOW:-33
+p1:  1,1 |1760|Ta_lplp_10|  MID  | 25 |-11 | +2 | ??  |1/2|C |55 |27 |29 | NOW:+2
+p2:  NO_BLOCK | 28 | 2 | 0 | 0 | HIT
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 |-26 | ??  |1/1|A |44 |56 |30 | NOW:-26
+p1:  NOW:+33
+p1: f3,4 |1699|Ta_tukilk2H|  MID  | 23 |-16 |+33 | ??  |1/2|C |58 |28 |61 |TJ: 20~  NOW:+33
+p2:  NO_BLOCK | 30 | 2 | 0 | 0 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  | 16 | ?? | +4 | ??  |1/2|C |50 |31 |35 |TC: 5~  NOW:+4
+p2:  LOW | 12 | 1 | 0 | 0 | HIT
+p1:  ws3 |1756|Ta_s_tlk|  MID  | 15 | ?? |+33 | ??  |1/2|C |46 |29 |62 | NOW:+33
+p2:  NO_BLOCK | 16 | 1 | 0 | 0 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  | 16 | ?? | +4 | ??  |1/2|C |50 |31 |35 |TC: 5~  NOW:+4
+p2:  LOW | 12 | 1 | 0 | 0 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  | 16 | ?? | +4 | ??  |1/2|C |50 |31 |35 |TC: 5~  NOW:+4
+p2:  LOW | 12 | 1 | 0 | 0 | HIT
+p1:  ws4 |1757|Ta_s_trk|  MID  | 11 | ?? | +4 | ??  |1/2|F-|37 |23 |27 | NOW:+4
+p2:  NO_BLOCK | 18 | 1 | 0 | 0 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  | 16 | ?? | +4 | ??  |1/2|C |50 |31 |35 |TC: 5~  NOW:+4
+p2:  LOW | 12 | 1 | 0 | 0 | HIT
+p1:  ws1 |1750|Ta_renda|  MID  | 14 | ?? | +5 | ??  |1/1|A |34 |18 |23 | NOW:+5
+p2:  NO_BLOCK | 11 | 1 | 0 | 0 | HIT
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | +1 | ??  |1/2|A |39 |26 |27 | NOW:+1
+p2:  NO_BLOCK | 17 | 1 | 0 | 0 | HIT
+No fight detected. Gamestate not updated.
+Fight detected. Updating gamestate.
+!ROUND | 0 | HIT
+Parsing movelist for [FENG]
+Parsing movelist for [Paul]
+!RECORD | vs PAUL: 0 - 1
+!RECORD | vs Kaim: 0 - 0
+!RECORD | FENG vs PAUL: 0 - 1
+!ROUND | 0 | HIT
+p2:  b2  |1732|Pl_Swpong|  MID  | 15 | ?? | ?? | +40 |1/1|C |48 |31 |71 | NOW:+40
+p1:  COUNTER | 37 | 1 | 3549 | 3533 | HIT
+p2:  d2  |1713|po_dowpH|  LOW  |17? | ?? | -1 | ??  |1/1|C-|49 |30 |29 | NOW:-1
+p2:  NOW:+31
+p2:  NOW:+21
+p1:  GROUND | 16 | 1 | 3473 | 3451 | HIT
+p2: f,f2 |1693|Pl_hadoh03|  MID  | 13 |-17 | ?? | ??  |1/2|F-|52 |36 |19 | NOW:-17
+Closing punish window, result: NO_PUNISH
+p2:  b1  |1596|Pl_4lp| HIGH  | 12 | ?? | +2 | ??  |1/2|S+|40 |25 |27 | NOW:+2
+p2:  NOW:-28
+p2:  NOW:+17
+p2: b1,2 |1597|Pl_4lprp2| HIGH  | 18 | ?? |+17 | ??  |1/2|C |53 |32 |49 | NOW:+17
+p1:  NO_BLOCK | 33 | 2 | 3164 | 3088 | HIT
+p2: uf3,4|1761|pol_sjk10F|  MID  | 13 | ?? |+32 | ??  |1/2|C |45 |29 |61 |TJ: 1~  NOW:+32
+p2:  b1  |1596|Pl_4lp| HIGH  | 12 | ?? |+22 | ??  |1/2|S+|40 |25 |47 | NOW:+22
+p2:  NOW:-8
+p2:  NOW:+55
+p2: b1,2 |1597|Pl_4lprp2| HIGH  | 18 | ?? |+55 | ??  |1/2|C |53 |32 |87 | NOW:+55
+p2: d4,2 |1699|rakuyo2JST|  LOW  | 15 | ?? |-18 | ??  |1/1|C |62 |66 |48 | NOW:-18
+p2: d4,2,2|1700|Pl_raklpW|  MID  | 21 | ?? |-18 | ??  |1/1|F-|67 |66 |48 | NOW:-18
+p2:  NOW:+8
+p2: d4,2,2,1+2|1702|Pl_raklpW|  MID  | 26 | ?? | +8 | ??  |1/2|A |68 |39 |47 | NOW:+8
+p2:  NOW:+74
+p2:  NOW:+75
+p2:  NOW:+76
+p2:  NOW:+77
+p2:  NOW:+78
+p2:  NOW:+79
+p2:  NOW:+80
+p2:  NOW:+81
+p2:  NOW:+82
+p2:  NOW:+83
+p2:  NOW:+84
+p2:  NOW:+85
+p2:  NOW:+86
+p2:  NOW:+87
+p2:  NOW:+88
+p2:  NOW:+89
+p2:  NOW:+90
+p2:  NOW:+91
+p1:  WHIFF_PUNISH | 56 | 7 | 2981 | 2716 | HIT
+p2:  3+4 |1577|Pl_lkrp|  MID  | 15 |-31 | ?? | ??  |1/2|A |41 |47 |16 | NOW:-31
+p2: 3+4,2|1578|Pl_lkrp| HIGH  | 23 | -3 | ?? | ??  |1/1|C |48 |23 |20 | NOW:-3
+p2: f1+2 |1591|Pl_midlp|  MID  | 20 | ?? |+25 | ??  |1/2|A |50 |27 |52 | NOW:+25
+p1:  WHIFF_PUNISH | 46 | 2 | 2617 | 2615 | HIT
+!ROUND | 1 | HIT
+p2: ff,f4|1763|Pl_abise|  MID  | 23 | ?? | ?? | +18 |5/12|C |59 |19 |37 |TJ: 8~  NOW:+18
+p2:  ws3 |1671|Pl_stlkrp|  MID  | 13 | ?? | -4 | ??  |1/2|A |40 |51 |47 | NOW:-4
+p2:  NOW:+57
+p2: ws3,2|1672|Pl_stlkrp| HIGH  | 21 | ?? |+57 | ??  |1/2|C |54 |30 |87 | NOW:+57
+p2:  NOW:+58
+p2: f,f2 |1693|Pl_hadoh03|  MID  | 13 |-17 |+32 | ??  |1/2|F-|52 |39 |71 | NOW:+32
+p2:  NOW:+27
+p1:  COUNTER | 69 | 4 | 3558 | 3339 | HIT
+p2:  3+4 |1577|Pl_lk00|  MID  | 15 | -7 | ?? | ??  |1/2|A |41 |23 |16 | NOW:-7
+p2:  b1  |1596|Pl_4lp| HIGH  | 12 | -9 |+22 | ??  |1/2|S+|40 |26 |17 | NOW:-9
+p2:  NOW:-39
+p2: b1,2 |1597|Pl_4lprp2| HIGH  | 18 | -5 |+55 | ??  |1/2|C |53 |32 |27 | NOW:-5
+p1:  f1  |1421|Ta_step_LP|  LOW  | 22 | ?? | ?? | +31 |1/2|C |55 |30 |61 |TC: 5~  NOW:+31
+p1: b1+2 |1776|Ta_tetuzan2E|  MID  | 13 |-19 |+13 | ??  |15/2|A |52 |36 |49 | NOW:+13
+p2:  COUNTER | 48 | 2 | 3193 | 3079 | HIT
+p2: df1+2|1723|Pl_namatekkiH|  LOW  | 32 | ?? |+44 | ??  |1/2|C |68 |30 |74 |TC: 1~  NOW:+44
+p2:  3+4 |1577|Pl_lkrp|  MID  | 15 | -7 | +0 | ??  |1/2|A |41 |47 |47 | NOW:+0
+p2:  NOW:+25
+p2: 3+4,2|1578|Pl_lkrp| HIGH  | 23 | -3 |+25 | ??  |1/1|C |48 |23 |48 | NOW:+25
+p2:  b1  |1596|Pl_4lp| HIGH  | 12 | -9 |+22 | ??  |1/2|S+|40 |25 |47 | NOW:+22
+p2:  NOW:-8
+p2:  NOW:+55
+p2: b1,2 |1597|Pl_4lprp2| HIGH  | 18 | -5 |+55 | ??  |1/2|C |53 |32 |87 | NOW:+55
+p2:  NOW:+56
+p2: f,f2 |1693|Pl_hadoh03|  MID  | 13 |-17 |+32 | ??  |1/2|F-|52 |39 |71 | NOW:+32
+p2:  NOW:+82
+p2:  NOW:+58
+p2:  NOW:+59
+p2:  NOW:+60
+p2:  NOW:+61
+p1:  LOW | 66 | 7 | 2967 | 2665 | HIT
+p1:  uf2 |1497|Ta_jprp03F|  MID  | 18 | ?? | +3 | ??  |1/1|A |52 |32 |35 | NOW:+3
+p2:  MID | 19 | 1 | 2589 | 2552 | HIT
+p1:  f1  |1421|Ta_step_LP|  LOW  | 22 | ?? | +2 | +31 |1/2|C |55 |30 |32 |TC: 5~  NOW:+2
+p2:  WHIFF_PUNISH | 25 | 1 | 2500 | 2466 | HIT
+p1:  db3 |1746|Ta_tessa|  LOW  | 16 | ?? | +4 | ??  |1/2|C |50 |31 |35 |TC: 5~  NOW:+4
+p2:  LOW | 13 | 1 | 2449 | 2414 | HIT
+p1:  ws1 |1750|sDm_KAO00L|  MID  | 14 | ?? | +5 | -5  |1/1|A |34 |28 |23 | NOW:-5
+Closing punish window, result: JAB_ON_NOT_LAUNCHABLE
+p2:  ws1 |1670|sDm_KAO0025|  MID  | 10 | ?? | ?? | +5  |1/2|A |33 |22 |27 | NOW:+5
+Closing punish window, result: JAB_ON_NOT_LAUNCHABLE
+p2:  POWER_CRUSHED | 14 | 1 | 2401 | 2376 | HIT
+p1:  POWER_CRUSHED | 14 | 1 | 2401 | 2371 | HIT
+p2: ff,f4|1763|Pl_abise|  MID  | 23 | +5 | ?? | +18 |11/12|C |59 |13 |18 |TJ: 2~  NOW:+5
+p2:  ws3 |1671|Pl_stlkrp|  MID  |12? | ?? | -4 | -24 |1/2|A |40 |51 |27 | NOW:-24
+p2:  NOW:+17
+p2: ws3,2|1672|Pl_stlkrp| HIGH  | 21 | ?? |+17 | ??  |1/2|C |54 |30 |47 | NOW:+17
+p2:  NOW:+39
+p1:  COUNTER | 41 | 3 | 2016 | 1993 | HIT
+p2:  d2  |1713|po_dowpH|  LOW  | 18 | ?? | -1 | ??  |1/1|C-|49 |29 |28 | NOW:-1
+!ROUND | 2 | HIT
+p1:  GROUND | 20 | 1 | 1993 | 3600 | HIT
+p1:  uf2 |1497|Ta_jprp03F|  MID  | 18 | ?? | +3 | ??  |1/1|A |52 |33 |36 | NOW:+3
+p2:  WHIFF_PUNISH | 18 | 1 | 3577 | 3540 | HIT
+p2:  b2  |1732|Pl_Swpong|  MID  | 15 | ?? | ?? | +40 |1/1|C |48 |31 |71 | NOW:+40
+p2:  NOW:+41
+p1:  COUNTER | 37 | 1 | 3497 | 3481 | HIT
+p2:  NOW:+33
+p2: ff,f4|1763|Pl_abise|  MID  | 23 | -1 | ?? | +18 |5/12|C |59 |19 |18 |TJ: 8~  NOW:-1
+p1:  b1  |1710|Ta_hakkei| HIGH  | 10 |-10 | +1 | +36 |1/2|A |39 |26 |62 | NOW:+36
+p1: b1+2 |1776|Ta_tetuzan2E|  MID  | 13 |-19 | -6 | ??  |16/2|A |52 |35 |29 | NOW:-6
+p2:  COUNTER | 44 | 2 | 3345 | 3252 | HIT
+p1:  3+4 |1597|Ta_lk01| HIGH  | 16 | ?? | +4 | ??  |1/1|A |46 |44 |48 | NOW:+4
+p1:  NOW:+21
+p1: 3+4,3|1598|Ta_lk01| HIGH  | 17 | ?? |+21 | ??  |1/1|C |46 |27 |48 | NOW:+21
+p2:  WHIFF_PUNISH | 21 | 2 | 3205 | 3136 | HIT
+p1:  4,3 |1606|Ta_hasai|  MID  | 27 | ?? | -2 | ??  |1/10|A |58 |20 |18 |TJ: 14~  NOW:-2
+p2:  WHIFF_PUNISH | 21 | 1 | 3092 | 3063 | HIT
+p1:   2  |1571|Ta_rp00| HIGH  | 10 | -3 | ?? | +5  |1/1|A |32 |20 |25 | NOW:+5
+p2:  COUNTER | 9 | 1 | 3024 | 2997 | HIT
+p1:  b2  |1711|Ta_combo1|  MID  | 17 |-11 | ?? | ??  |1/1|A |47 |29 |18 | NOW:-11
+Closing punish window, result: NO_PUNISH
+p2:  uf3 |1532|pol_sjk10F|  MID  | 15 | ?? | ?? | +14 |1/2|C-|51 |43 |57 |TJ: 8~  NOW:+14
+p2:  NOW:+18
+p2: uf3,4|1761|pol_sjk10F|  MID  | 13 | ?? |+18 | ??  |1/2|? |45 |29 |47 |TJ: 1~  NOW:+18
+p2:  b1  |1596|Pl_4lp| HIGH  | 5? | -9 |+22 | ??  |1/2|S+|40 |25 |47 | NOW:+22
+p2:  NOW:-8
+p2:  NOW:+55
+p2: b1,2 |1597|Pl_4lprp2| HIGH  | 18 | -5 |+55 | ??  |1/2|C |53 |32 |87 | NOW:+55
+p2:  NOW:+56
+p2: d4,2 |1699|rakuyo2JST|  LOW  | 15 | ?? |-18 | ??  |1/1|C |62 |66 |48 | NOW:-18
+p2:  NOW:+4
+p2: d4,2,2|1700|rakuyo2JST|  MID  | 21 | ?? | +4 | ??  |1/1|F-|67 |44 |48 | NOW:+4
+p2:  NOW:-21
+p2:  NOW:+8
+p2: d4,2,2,1+2|1702|Pl_raklpW|  MID  | 26 | ?? | +8 | ??  |1/2|A |68 |39 |47 | NOW:+8
+p2:  NOW:+9
+p1:  COUNTER | 59 | 7 | 2948 | 2706 | HIT
+p1:   4  |1739|Ta_zensoutai|  LOW  |19? | ?? |+27 | +26 |1/3|C |53 |29 |56 |TC: 12~  NOW:+27
+p1: f1+2 |1774|Ta_6lrp| HIGH  | 19 | ?? |+53 | ??  |1/2|S+|56 |34 |87 | NOW:+53
+p1:  f3  |1697|Ta_tukilk2|  MID  | 21 |-38 | -8 | ??  |1/1|A |44 |56 |48 | NOW:-8
+p1:  NOW:+0
+p1:  NOW:+28
+p1:  NOW:+18
+p2:  WHIFF_PUNISH | 54 | 6 | 2565 | 2399 | HIT
+p2: _d1+2|1621|Ul_tacF_n|MID_THR| 26 | ?? |-23 | ??  |1/1|A |59 |102|79 | NOW:-23
+p2:  NOW:+5
+p2: _d1+2|2008|Co_tp_Rxxxxn| THROW | 0  | ?? | +5 | ??  |26/1|A |103|93 |98 | NOW:+5
+p2:  NOW:+0
+p2: _d1+2,2|2051|Pl_tp_RLxxxn| THROW | 0  | ?? | +0 | ??  |48/1|A |95 |73 |73 | NOW:+0
+p2: _d1+2,2,d1|2083|Pl_tp_RLLxxn| THROW | 0  | ?? | +0 | ??  |22/1|A |75 |83 |83 | NOW:+0
+p2: _d1+2,2,d1,1|2085|Pl_tp_RLLSmn| THROW | 0  | ?? | +0 | ??  |35/1|A |85 |277|277| NOW:+0
+p1:  THROW | 64 | 5 | 2305 | 1919 | HIT
+p2:  db3 |1669|Co_t_slk00B|  LOW  | 15 | ?? |+202| ??  |2/3|A |49 |29 |231|TC: 4~  NOW:+202
+p2:  d2  |1713|po_dowpH|  LOW  | 18 | ?? | -1 | ??  |1/1|C-|49 |29 |28 | NOW:-1
+p1:  LOW | 34 | 2 | 1903 | 1901 | HIT
+!ROUND | 3 | HIT
+LOSS | You | FENG | vs | Kaim | PAUL | 0-3 | 2018_05_21_14.47
+p2:  NOW:-232
+p2:  NOW:-233
+p2:  NOW:-234
+p2:  NOW:-235
+p2:  NOW:-236
+p2:  NOW:-237
+p2:  NOW:-238
+p2:  NOW:-239
+p2:  NOW:-240
+p2:  NOW:-241
+p2:  NOW:-242
+p2:  NOW:-243
+p2:  NOW:-244
+p2:  NOW:-245
+p2:  NOW:-246
+Closing punish window, result: NO_PUNISH
+No fight detected. Gamestate not updated.
+
