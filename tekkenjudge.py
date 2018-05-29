@@ -2,11 +2,14 @@ import re
 
 class Move:
 	command = ""
-	count = 1
-	damage = 0
-	combo = False
-	counterHit = False
-	tbl = ""
+	st=0
+	hit=0
+	block=0
+
+class Hit:
+	hitType = ""
+	damage  = 0
+	hits = 0
 
 
 def Viewfile(file):
@@ -39,40 +42,61 @@ def Punish(match):
 				else:
 					p2[fight[index-1]] =1
 
-def Hit(match):
+def matchData(match):
 	fight=match.split('\n')
 	p1 = []
-	p2 = {}
+	p2 = []
 	x1=0
 	x2=0
-	for index, line in enumerate(fight):
-		print(line)
-		if "HIT" in line and "!ROUND" not in line:
-			print("found")
-			p = fight[index-1].split("|")[0]
-			p= p.replace(' ','')
-			if "p1:" in p:
-				p= p.replace('p1:','')
+	for line in fight:
+		a=line.split("|")
+		if len(a)==14:
+			a[3]=a[3].replace(' ','')
+			print(a[3])
+			if a[3] == "HIGH" or a[3] == "MID" or a[3] == "LOW" or a[3] == "THROW":
+				print(a[3])
+				print(line)
+				if "p1:" in a[0]:
+					a[0]= a[0].replace('p1:','')
+					x = Move()
+					x.command=a[0]
+					x.tbl=line
+					x.st=a[4]
+					x.block=a[5]
+					x.hit=a[6]
+					p1.append(x)
 
-				for move in p1:
-					if move.command == p1:
-						move.count += 1
-						continue
-				
-				p1[x1]= Move()
-				p1[x1].command=p
-				tbl=line
-				x1 += 1
+				elif "p2:" in a[0]:
+					a[0]= a[0].replace('p2:','')
+					x = Move()
+					x.command=a[0]
+					x.st=a[4]
+					x.block=a[5]
+					x.hit=a[6]
+					p2.append(x)
+		elif len(a)==6:
+			if "p1:" in a[0]:
+					a[0]= a[0].replace('p1:','')
+					x = Hit()
+					x.type=a[0]
+					x.damage=a[1]
+					x.hits=a[2]
+					p2.append(x)
 
-				
-			else:
-				p= p.replace('p2:','')
-				if p in p2:
-					p2[p] +=1
-				else:
-					p2[p] =1
-	print(p1)
-	print(p2)
+			elif "p2:" in a[0]:
+					a[0]= a[0].replace('p2:','')
+					x = Hit()
+					x.type=a[0]
+					x.damage=a[1]
+					x.hits=a[2]
+					p1.append(x)
+
+			
+	for obj in p1:
+		print(obj)
+	print("\n")
+	for obj in p2:
+		print(obj)
 
 #def Hit(match):
 #	fight=match.split('\n')
@@ -101,4 +125,4 @@ def Hit(match):
 
 
 matches =Viewfile("testdata.txt")
-Hit(matches[2])
+matchData(matches[2])
