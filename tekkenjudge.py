@@ -28,9 +28,9 @@ def Punish(match):
 	p1 = {}
 	p2 = {}
 	for index, line in enumerate(fight):
-		print(line)
+		
 		if "Closing" in str(line):
-			print("found")
+			
 			if "p1:" in fight[index-1]:
 				if fight[index-1] in p1:
 					p1[fight[index-1]] +=1
@@ -48,16 +48,15 @@ def matchData(match):
 	p2 = []
 	x1=0
 	x2=0
-	for line in fight:
+	for index, line in enumerate(fight):
 		a=line.split("|")
 		if len(a)==14:
 			a[3]=a[3].replace(' ','')
-			print(a[3])
 			if a[3] == "HIGH" or a[3] == "MID" or a[3] == "LOW" or a[3] == "THROW":
-				print(a[3])
-				print(line)
+
 				if "p1:" in a[0]:
 					a[0]= a[0].replace('p1:','')
+					a[0]= a[0].replace(' ','')
 					x = Move()
 					x.command=a[0]
 					x.tbl=line
@@ -68,6 +67,7 @@ def matchData(match):
 
 				elif "p2:" in a[0]:
 					a[0]= a[0].replace('p2:','')
+					a[0]= a[0].replace(' ','')
 					x = Move()
 					x.command=a[0]
 					x.st=a[4]
@@ -77,51 +77,86 @@ def matchData(match):
 		elif len(a)==6:
 			if "p1:" in a[0]:
 					a[0]= a[0].replace('p1:','')
+					a[0]= a[0].replace(' ','')
 					x = Hit()
-					x.type=a[0]
+					x.hitType=a[0]
 					x.damage=a[1]
 					x.hits=a[2]
 					p2.append(x)
 
 			elif "p2:" in a[0]:
 					a[0]= a[0].replace('p2:','')
+					a[0]= a[0].replace(' ','')
 					x = Hit()
-					x.type=a[0]
+					x.hitType=a[0]
 					x.damage=a[1]
 					x.hits=a[2]
 					p1.append(x)
+		elif len(a)==1 and "NO_PUNISH" in a[0]:
+			if "p1" in fight[index-1]:
+				x = Hit()
+				x.hitType="Block_NO_PUNISH"
+				x.damage=0
+				x.hits=1
+				p1.append(x)
+			elif "p1" in fight[index-1]:
+				x = Hit()
+				x.hitType="Block_NO_PUNISH"
+				x.damage=0
+				x.hits=1
+				p1.append(x)
 
-			
+	player1 = {}
+	player2 = {}
+	st = ""
 	for obj in p1:
-		print(obj)
-	print("\n")
-	for obj in p2:
-		print(obj)
+		try:
+			if st == "":
+				st = obj.hitType
+			if st in player1:
+				player1[st+obj.hitType][0] += 1
+				player1[st+obj.hitType][2] += int(obj.damage)
+				st =""
+			else:
+				
+				player1[st+obj.hitType] = [1, int(obj.damage), int(obj.damage)]
+				st = ""
 
-#def Hit(match):
-#	fight=match.split('\n')
-#	p1 = {}
-#	p2 = {}
-#	for index, line in enumerate(fight):
-#		print(line)
-#		if "HIT" in line and "!ROUND" not in line:
-#			print("found")
-#			p = fight[index-1].split("|")[0]
-#			p= p.replace(' ','')
-#			if "p1:" in p:
-#				p= p.replace('p1:','')
-#				if p in p1:
-#					p1[p] +=1
-#				else:
-#					p1[p] =1
-#			else:
-#				p= p.replace('p1:','')
-#				if p in p2:
-#					p2[p] +=1
-#				else:
-#					p2[p] =1
-#	print(p1)
-#	print(p2)
+
+		except AttributeError:
+			st += obj.command + " "
+
+	for obj in p2:
+		try:
+			if st == "":
+				st = obj.hitType
+			if st in player1:
+				player2[st+obj.hitType][0] += 1
+				player2[st+obj.hitType][2] += int(obj.damage)
+				st =""
+			else:
+				
+				player2[st+obj.hitType] = [1, int(obj.damage), int(obj.damage)]
+				st = ""
+
+
+		except AttributeError:
+			st += obj.command + " "
+	print("player 1")
+	for x in player1:
+		print(x)
+		for y in player1[x]:
+			print(y)
+		print("\n")
+
+	print("player 2")
+	for x in player2:
+		print(x)
+		for y in player2[x]:
+			print(y)
+		print("\n")
+
+
 
 
 matches =Viewfile("testdata.txt")
